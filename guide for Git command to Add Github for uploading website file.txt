@@ -1,0 +1,150 @@
+…or create a new repository on the command line
+echo "# Agriculture_System" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shahinurcmt45/Agriculture_System.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/shahinurcmt45/Agriculture_System.git
+git branch -M main
+git push -u origin main
+
+
+J:\Wondershare\Agriculture_System
+
+shahi@Shahinur MINGW64 /j/Wondershare/Agriculture_System
+$ git init
+Initialized empty Git repository in J:/Wondershare/Agriculture_System/.git/
+
+shahi@Shahinur MINGW64 /j/Wondershare/Agriculture_System (master)
+$ git add .
+warning: in the working copy of 'css/bootstrap.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/style.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/style.css.map', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/bootstrap.js', LF will be replaced by CRLF the next time Git touches it
+
+shahi@Shahinur MINGW64 /j/Wondershare/Agriculture_System (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   blog.html
+        new file:   class.html
+        new file:   css/bootstrap.css
+        new file:   css/responsive.css
+        new file:   css/style.css
+        new file:   css/style.css.map
+        new file:   css/style.scss
+        new file:   images/about-bg.jpg
+        new file:   images/b1.jpg
+        new file:   images/b2.jpg
+        new file:   images/c1.jpg
+        new file:   images/c2.jpg
+        new file:   images/client1.png
+        new file:   images/client2.png
+        new file:   images/facebook.png
+        new file:   images/footer-img.jpg
+        new file:   images/hero-bg.jpg
+        new file:   images/instagram.png
+        new file:   images/left-angle.png
+        new file:   images/left-black-arrow.png
+        new file:   images/linkedin.png
+        new file:   images/location.png
+        new file:   images/logo.png
+        new file:   images/mail.png
+        new file:   images/menu.png
+        new file:   images/next-arrow.png
+        new file:   images/next-grey.png
+        new file:   images/next.png
+        new file:   images/play-icon.png
+        new file:   images/prev-arrow.png
+        new file:   images/prev-grey.png
+        new file:   images/prev.png
+        new file:   images/quote.png
+        new file:   images/right-angle.png
+        new file:   images/right-black-arrow.png
+        new file:   images/search-icon.png
+        new file:   images/telephone.png
+        new file:   images/twitter.png
+        new file:   images/youtube.png
+        new file:   index.html
+        new file:   js/bootstrap.js
+        new file:   js/jquery-3.4.1.min.js
+
+
+shahi@Shahinur MINGW64 /j/Wondershare/Agriculture_System (master)
+$ git commit -m "First Commit"
+[master (root-commit) d848fa7] First Commit
+ 43 files changed, 18186 insertions(+)
+ create mode 100644 about.html
+ create mode 100644 blog.html
+ create mode 100644 class.html
+ create mode 100644 css/bootstrap.css
+ create mode 100644 css/responsive.css
+ create mode 100644 css/style.css
+ create mode 100644 css/style.css.map
+ create mode 100644 css/style.scss
+ create mode 100644 images/about-bg.jpg
+ create mode 100644 images/b1.jpg
+ create mode 100644 images/b2.jpg
+ create mode 100644 images/c1.jpg
+ create mode 100644 images/c2.jpg
+ create mode 100644 images/client1.png
+ create mode 100644 images/client2.png
+ create mode 100644 images/facebook.png
+ create mode 100644 images/footer-img.jpg
+ create mode 100644 images/hero-bg.jpg
+ create mode 100644 images/instagram.png
+ create mode 100644 images/left-angle.png
+ create mode 100644 images/left-black-arrow.png
+ create mode 100644 images/linkedin.png
+ create mode 100644 images/location.png
+ create mode 100644 images/logo.png
+ create mode 100644 images/mail.png
+ create mode 100644 images/menu.png
+ create mode 100644 images/next-arrow.png
+ create mode 100644 images/next-grey.png
+ create mode 100644 images/next.png
+ create mode 100644 images/play-icon.png
+ create mode 100644 images/prev-arrow.png
+ create mode 100644 images/prev-grey.png
+ create mode 100644 images/prev.png
+ create mode 100644 images/quote.png
+ create mode 100644 images/right-angle.png
+ create mode 100644 images/right-black-arrow.png
+ create mode 100644 images/search-icon.png
+ create mode 100644 images/telephone.png
+ create mode 100644 images/twitter.png
+ create mode 100644 images/youtube.png
+ create mode 100644 index.html
+ create mode 100644 js/bootstrap.js
+ create mode 100644 js/jquery-3.4.1.min.js
+
+shahi@Shahinur MINGW64 /j/Wondershare/Agriculture_System (master)
+$ ^[[200~git remote add origin https://github.com/shahinurcmt45/Agriculture_System.git~
+bash: $'\E[200~git': command not found
+
+shahi@Shahinur MINGW64 /j/Wondershare/Agriculture_System (master)
+$ git remote add origin https://github.com/shahinurcmt45/Agriculture_System.git
+
+shahi@Shahinur MINGW64 /j/Wondershare/Agriculture_System (master)
+$ git push -u origin master
+Enumerating objects: 48, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (48/48), done.
+Writing objects: 100% (48/48), 1.62 MiB | 849.00 KiB/s, done.
+Total 48 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/shahinurcmt45/Agriculture_System.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+shahi@Shahinur MINGW64 /j/Wondershare/Agriculture_System (master)
+$
